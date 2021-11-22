@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');* {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0px;
+}
+
+body {
+  background-color: #fcfdff;
+}
+
+/*Estilos genericos*/
+.ListStyle {
+  list-style: none;
+}
+
+.Underline {
+  text-decoration: underline;
+}
+
+.RojoCritico {
+  color:red;
+}
+/*Barra superior para acceso rapido*/
+.navbar {
+  padding-top: 0.09%;
+  background-color: #1e8de8;
+  font-size: 20px;
+}
+
+.logo {
+  float: left;
+  height: 35px;
+  width: 180px;
+  padding-right: 1%;
+}
+
+.navbar li {
+  display: inline;
+  color: white;
+
+}
+
+.navbar li:hover{
+  background-color:  #219bff;
+}
+
+.breadcrumb a, .navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#Titulo {
+	float:right;
+	color: white;
+}
+
+
+
+/*Barra inferior para breadcrumbs*/
+.breadcrumb  {
+  list-style: none;
+  background-color: #2d80c4;
+  color: white;
+
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\003e";
+}
+
+                      /*index.html*/
+table {
+  background-color: #003049;
+}
+
+td {
+  color: white;
+}
+
+ /*(Intento de) implementacion de jQuery*/
+.tdOdd {
+  background-color: #a0a552;
+}
+
+.tdEven {
+  background-color: #306ea0;
+}
+
+
+thead  {
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  background-color: #011627;
+  color: #fff;
+}
+
+.tabla {
+  padding: 5% 15%;
+}
+
+.IndexImg {
+  float:right;
+}
+
+/*Barra de busqueda y accesos rapidos de tabla*/
+.navbarTabla {
+  padding-bottom: 1%;
+}
+
+tr:hover td {
+  transition-duration: 1s;
+  background-color: #26662e;
+}
+
+                      /*Details.html*/
+.Detalles {
+  display: block;
+  padding-left: 1%;
+  font-size: 20px;
+}
+
+
+#DetEdit {
+  float:right;
+  padding-top: 0.5%;
+}
+
+                      /*Delete.html*/
+.Delete {
+    background-color: white
+}
+
+					/*Login*/
+
+#LoginTitle {
+	font-size: 40px;
+	text-align: center;
+}
+
+.LoginBoxAdentro {
+}
+
+.LoginBoxAdentro input, select {
+	width: 99%;
+	height: 5%;
+	font-size: 100%;
+
+}
+
+.ButtonLogin {
+	font-weight: 100;
+	height: 9%;
+	background-color: #306ea0;
+	border: 0.5px solid grey;
+	font-size: 25px;
+}
+
+.ButtonLoginBack {
+	font-weight: 100;
+	background-color: #306ea0;
+	border: 0.5px solid grey;
+	font-size: 25px;
+	height: 5%;
+	width: 99%;
+}
+
+.Error {
+	margin: 0% 10%;
+	padding: 3%;
+	text-align: center;
+	background-color: #ff00001a;
+	border: 0.1em solid red;
+	border-radius: 4px;
+}
+
+.Exito {
+	margin: 0% 10%;
+	padding: 3%;
+	text-align: center;
+	background-color: #00a5ff1a;
+	border: 0.1em solid blue;
+	border-radius: 4px;
+}
+                      /*Div Box: Utilizadas para centrar*/
+.DivBox1 {
+  padding: 2% 25% 0% 25%;
+}
+.DivBox2 {
+  text-align: center;
+  padding: 7% 25% 0% 25%;
+}
+
+
+.Filtros{
+	display: none;
+}
